@@ -1,0 +1,48 @@
+body{
+	background-image: url('Pictures/bmc.jpg');
+	background-size: cover;
+	max-width: 100%;
+	background-repeat: no-repeat;
+	min-height: 100%;
+}
+input{
+	height: 30px;
+	font-size: 20px;
+	border-radius: 5px;
+	max-width: 100%;
+	font-family: 'Creepster', cursive;
+}
+.in,.im{
+	font-size: 30px;
+	max-width: 100%;
+}
+.in{
+	margin-left: 360px;
+	margin-top: 20px;
+	font-family: 'Creepster', cursive;
+}
+.im{
+	margin-left: 270px; 
+	font-family: 'Creepster', cursive;
+}
+tr{
+	
+	max-width: 100%;
+	padding: 2px;
+}
+.btn{
+	
+	max-width: 100%;
+	margin-left: 430px;
+}
+table{
+	font-size: 30px;
+	margin-left: 320px;
+	max-width: 100%;
+	font-family: 'Creepster', cursive;
+}
+th,td{
+	width: 80px;
+	padding: 10px;
+	max-width: 100%;
+}

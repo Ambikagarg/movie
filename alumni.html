@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>movie</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="alumni.css">
+
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=open+sans">
+</head>
+<body>
+	<img src="Pictures/log.png" height="90px" width="90px">
+	<form>
+		<div class="in"><strong>Movie:</strong><input id="me" type="text" name="movie name" placeholder="Movie"/><br></div>
+		<div class="im"><strong>IMBD rating:</strong><input type="text" id="ma" name="IMDB rating" placeholder="rating"></div><br>
+		<input id="demo" onclick="validate()" class="btn" type="button" value="Submit">
+		
+	</form><br><br>
+	    <table  border="1">
+	    	<tr>
+				<th>Movie</th>
+				<th>Rating</th>
+			</tr>
+	    </table>
+		<table id="myTable" border="1">
+			
+		</table>
+		<script type="text/javascript">
+			function validate(){
+				movie = document.getElementById('me');
+			    rate = document.getElementById('ma');
+		        if( movie.value != "" && rate.value != "")
+		        {
+		    		document.getElementById("demo").addEventListener("click", addRows);
+		    	}
+		    	else
+		    		{
+		    			alert("Fill the form completely");
+		    		}
+		    }
+		    function addRows() {
+		    	var table = document.getElementById('myTable');
+			    var row = table.insertRow(0);
+			    var cell1 = row.insertCell(0);
+			    var cell2 = row.insertCell(1);
+			    cell1.innerHTML = document.getElementById('me').value;
+			    cell2.innerHTML = document.getElementById('ma').value;
+			}
+		
+		
+	</script>
+	 
+
+</body>
+</html>
