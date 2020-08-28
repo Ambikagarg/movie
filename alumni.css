@@ -17,12 +17,12 @@ input{
 	max-width: 100%;
 }
 .in{
-	margin-left: 360px;
-	margin-top: 20px;
+	margin-left: 310px;
+	margin-top: 0px;
 	font-family: 'Creepster', cursive;
 }
 .im{
-	margin-left: 270px; 
+	margin-left: 220px; 
 	font-family: 'Creepster', cursive;
 }
 tr{
@@ -31,18 +31,30 @@ tr{
 	padding: 2px;
 }
 .btn{
+	padding: 10px;
+	height: 50px;
+	color: #d9ddeb;
+	background-color: green;
 	
 	max-width: 100%;
-	margin-left: 430px;
+	margin-left: 400px;
 }
 table{
+	border-radius: 15px;
+	border: solid #737373;
 	font-size: 30px;
-	margin-left: 320px;
+	margin-left: 200px;
 	max-width: 100%;
 	font-family: 'Creepster', cursive;
 }
+th{
+	color: #4d1a00;
+}
 th,td{
-	width: 80px;
+	width: 200px;
+	border-radius: 15px;
+	border: solid #737373;
+	text-align: center;
 	padding: 10px;
 	max-width: 100%;
 }
